@@ -1,0 +1,60 @@
+* {
+    font-family: 'Sofia Pro';
+    color: #3f4c58;
+    
+}
+
+.back1{
+    width: 850px;
+    margin: auto;
+    
+}
+
+.back2{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 24px;
+    background: #f4f6f8;
+
+}
+
+.titulo{
+    font-size: 60px;
+    text-align: center;
+}
+
+.sub{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.tablero{
+    background-color: #3f4c58;
+    border-radius: 24px;
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+
+
+}
+
+.carta{
+    border-radius: 24px;
+    margin-top: 10px;
+    width: 180px;
+    height: 285px;
+    background-color: aqua;
+}
+
+
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url("src\assets\font\SofiaProRegular.woff2") format('woff2'),
+         url("src\assets\font\SofiaProRegular.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }

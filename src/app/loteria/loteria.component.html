@@ -1,0 +1,22 @@
+<div class="back1">
+    <div class="back2">
+        <div class="titulo">Loteria</div>
+        <div class="sub">
+            <label for="numero">Ingresa el número de tableros que deseas: </label>
+            <input type="number" id="numero" name="numero" #numeroo>
+            <button (click)="leerTexto(numeroo.value)">Crear Tableros</button>
+        </div>
+    </div>
+    <hr>
+    <div class="back2">
+        <div class="tablero" *ngFor="let item of tarjetas; let i =index">
+            <div class="carta" *ngFor="let item2 of tarjetas[i]; let aa =index">
+                <img src="assets\imagenes\{{cartas.info[tarjetas[i][aa]].nombre_carta}}" alt="{{cartas.info[tarjetas[i][aa]].nombre_carta}}" width="100%">
+
+            </div>
+        
+        </div>
+            
+        
+    </div>
+</div>
